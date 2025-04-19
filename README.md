@@ -1,8 +1,6 @@
-# Sentiment Analysis Application using BERT
+# Image Captioning Application using BLIP model
 
 ## Introduction
-
-This repository is dedicated to creating a sentiment analysis application powered by the BERT model. Combining the strengths of Python, HTML, and JavaScript, it offers a seamless integration of natural language processing with a user-friendly interface. This project serves as a practical demonstration of modern sentiment analysis techniques in action.
 
 ## Table of Contents
 
@@ -16,23 +14,17 @@ This repository is dedicated to creating a sentiment analysis application powere
 
 ## Prerequirements
 
-- IBM Cloud IDE
-- IBM Watson NLP Library
+- ![Python 3.9](https://img.shields.io/badge/Python-3.9-blue) or above: [Download here](https://python.org/download)
 
 ## Project Structure
 
 ```
-Sentiment-Analysis-App/
-├── SentimentAnalysis/
-│   ├── __init__.py
-│   └── sentiment_analysis.py
+Image-Captioning-App/
+├── test/
+│   ├── test.py
+│   └── ronaldo.jpg
 ├── .gitignore
-├── static/
-│   └── script.js
-├── templates/
-│   └── index.html
-├── app.py
-├── test_sentiment_analysis.py
+├── image_captioning_app.py
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -40,58 +32,53 @@ Sentiment-Analysis-App/
 
 ## Features
 
-- Sentiment analysis using BERT model
-- Deploy with Flask
-- Basic routing
-- Basic HTML, JavaScript and Bootstrap
+- Image Captioning Application using BLIP model from Hugging Face's Transformers
+- Using Gradio UI
 
 ## Installation
 
-To run this project on IBM Cloud IDE, open the Terminal and follow these steps:
+To install this project, open your Terminal and follow these steps:
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/arthurtran04/Sentiment-Analysis-App.git
+    git clone https://github.com/arthurtran04/Image-Captioning-App.git
     ```
 
-2. Install the required dependencies:
+2. Run the `cd` command to change the directory to `Image-Captioning-App`:
 
     ```bash
+    cd ./Image-Captioning-App
+    ```
+
+3. Create a Python virtual environment `venv` and install the required dependencies:
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate
     pip install -r requirements.txt
     ```
 
 ## Usage
 
-To start the Flask application, run the `cd` command to change the directory to `Sentiment-Analysis-App` and run the `app.py` file:
+To start the application, run the `image_captioning_app.py` file:
 
    ```bash
-   cd ./Sentiment-Analysis-App
-   python3.11 app.py
+   python image_captioning_app.py
    ```
-In the Skills Network Toolkit, launch your application at the port `5000:
+This application will run locally at `http://127.0.0.1:7860`:
 
-<img width="600rem" alt="Terminal" src="https://github.com/user-attachments/assets/8e3a47e2-82a6-4583-9de4-71e440fce7c7" />
+<img width="600rem" alt="Terminal" src="https://github.com/user-attachments/assets/67f66624-ba28-4c98-98f6-dc39f4da8c8c"/>
 
-<img width="600rem" alt="Webpage" src="https://github.com/user-attachments/assets/c3c409cf-53c0-49d8-8219-a735dcdefb8e" />
+The UI:
 
-When you enter a text in the textbox, the webpage will display the sentiment analysis results including **POSITIVE**, **NEGATIVE** and **NEUTRAL**,</br>
-they're attached with a score ranging from -1 to 1, representing the level of sentiment:
-- score = -1 -> NEGATIVE
-- score = 0 -> NEUTRAL
-- score = 1 -> POSITIVE
+<img width="600rem" alt="Webpage" src="https://github.com/user-attachments/assets/1fd98fa5-1901-434a-93af-5f1b96c4cf8f"/>
 
-1. POSITIVE:</br>
-    <img width="600rem" alt="POSITIVE" src="https://github.com/user-attachments/assets/65b785a4-9dd4-4f2e-8f2f-5532ce798891" />
-2. NEGATIVE:</br>
-    <img width="600rem" alt="NEGATIVE" src="https://github.com/user-attachments/assets/28ebf4d3-6bff-4bd3-9240-a7f839fc6e01" />
-3. NEUTRAL:</br>
-    <img width="600rem" alt="NEUTRAL" src="https://github.com/user-attachments/assets/7a8745af-0130-447c-83aa-334b7b8fa319" />
+Upload your photo in the left box and click **Submit** button, the application will generate the image caption in the right box:
 
-This model only works for English, so if you try to enter text in another language or an invalid text, the webpage will respond with **Invalid input! Try again.**
+<img width="600rem" alt="Example" src="https://github.com/user-attachments/assets/b80dc8d4-c005-49c7-b11c-7cec7f209d6f"/>
 
-4. Invalid input:</br>
-    <img width="600rem" alt="INVALID INPUT" src="https://github.com/user-attachments/assets/b496ed4e-2466-438d-9a55-59122789ae21" />
+To stop the application, use `Ctrl + C` in the Terminal
 
 ## License
 
