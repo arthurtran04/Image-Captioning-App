@@ -2,6 +2,8 @@
 
 ## Introduction
 
+This repository showcases an innovative **Image Captioning Application** powered by the **BLIP model** (Bootstrapping Language-Image Pre-training). Built entirely in **Python**, this project demonstrates the fascinating intersection of computer vision and natural language processing by automatically generating descriptive captions for images. Perfect for those interested in exploring multimodal AI applications!
+
 ## Table of Contents
 
 - [Introduction](#introduction)
