@@ -47,10 +47,10 @@ To install this project, open your Terminal and follow these steps:
     git clone https://github.com/arthurtran04/Image-Captioning-App.git
     ```
 
-2. Run the `cd` command to change the directory to `Image-Captioning-App`:
+2. Change the directory to `Image-Captioning-App`:
 
     ```bash
-    cd ./Image-Captioning-App
+    cd "$(find . -type d -name "Image-Captioning-App")"
     ```
 
 3. Create a Python virtual environment `venv` and install the required dependencies:
