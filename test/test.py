@@ -1,3 +1,4 @@
+# Importing the necessary libraries
 import requests
 from PIL import Image
 from transformers import AutoProcessor, BlipForConditionalGeneration
