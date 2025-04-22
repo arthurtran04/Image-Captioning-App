@@ -16,7 +16,7 @@ This repository showcases an innovative **Image Captioning Application** powered
 
 ## Prerequirements
 
-- ![Python 3.9](https://img.shields.io/badge/Python-3.9-blue) or above: [Download here](https://python.org/download)
+- ![Python 3.9](https://img.shields.io/badge/Python-3.9-blue) or above: [Download here](https://python.org/downloads)
 
 ## Project Structure
 
