@@ -32,6 +32,10 @@ Image-Captioning-App/
 └── README.md
 ```
 
+## Models
+
+- [Salesforce/blip-image-captioning-base](https://huggingface.co/Salesforce/blip-image-captioning-base)
+
 ## Features
 
 - Image Captioning Application using BLIP model from Hugging Face's Transformers
