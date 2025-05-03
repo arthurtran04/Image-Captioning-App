@@ -9,6 +9,7 @@ This repository showcases an innovative **Image Captioning Application** powered
 - [Introduction](#introduction)
 - [Prerequirements](#prerequirements)
 - [Project Structure](#project-structure)
+- [Model](#model)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -32,7 +33,7 @@ Image-Captioning-App/
 └── README.md
 ```
 
-## Models
+## Model
 
 - [Salesforce/blip-image-captioning-base](https://huggingface.co/Salesforce/blip-image-captioning-base)
 
