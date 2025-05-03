@@ -22,7 +22,7 @@ This repository showcases an innovative **Image Captioning Application** powered
 ## Project Structure
 
 ```
-Image-Captioning-App/
+Image-Captioning/
 ├── test/
 │   ├── test.py
 │   └── ronaldo.jpg
@@ -49,13 +49,13 @@ To install this project, open your Terminal and follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/arthurtran04/Image-Captioning-App.git
+    git clone https://github.com/arthurtran04/Image-Captioning.git
     ```
 
-2. Change the directory to `Image-Captioning-App`:
+2. Change the directory to `Image-Captioning`:
 
     ```bash
-    cd "$(find . -type d -name "Image-Captioning-App")"
+    cd "$(find . -type d -name "Image-Captioning")"
     ```
 
 3. Create a Python virtual environment `venv` and install the required dependencies:
